@@ -11,7 +11,7 @@ const Map = () => {
   useEffect(() => {
     async function fetchData() {
       const data = await getPollutionData();
-      setPollutionData(data);
+      // setPollutionData(data);
     }
     fetchData();
   }, []);

@@ -1,3 +1,6 @@
+import fs from 'fs';
+import path from 'path';
+
 export async function GET() {
     try {
         // Step 1: Get monitoring locations near Calgary
@@ -5,7 +8,7 @@ export async function GET() {
             "https://api.openaq.org/v3/locations?coordinates=51.0447,-114.0719&radius=25000",
             { headers: { "Content-Type": "application/json", "X-API-Key": process.env.NEXT_PUBLIC_OPENAQ_API_KEY || "" } }
         );
-
+        await fetchAllMeasurements('1005');
         if (!locationsResponse.ok) {
             throw new Error("Failed to fetch locations");
         }
@@ -21,18 +24,11 @@ export async function GET() {
                 // Fetch measurements for all sensors
                 const sensorMeasurements = await Promise.all(
                     station.sensors.map(async (sensor: any) => {
-                        const measurementResponse = await fetch(
-                            `https://api.openaq.org/v3/sensors/${sensor.id}/measurements?sort=desc&limit=1`,
-                            { headers: { "Content-Type": "application/json", "X-API-Key": process.env.NEXT_PUBLIC_OPENAQ_API_KEY || "" } }
-                        );
-
-                        if (!measurementResponse.ok) return null;
-
-                        const measurementData = await measurementResponse.json();
+                        const allMeasurements = await fetchAllMeasurements(sensor.id);
 
                         // Group measurements by parameter and take the latest one for each
                         const latestMeasurementsByParameter: Record<string, any> = {};
-                        measurementData.results.forEach((measurement: any) => {
+                        allMeasurements.forEach((measurement: any) => {
                             const parameter = measurement.parameter;
                             if (
                                 !latestMeasurementsByParameter[parameter] ||
@@ -73,4 +69,37 @@ export async function GET() {
     } catch (error) {
         return new Response(JSON.stringify({ error: "Failed to fetch pollution data" }), { status: 500 });
     }
+}
+
+async function fetchAllMeasurements(sensorId: string): Promise<any[]> {
+    const allMeasurements: any[] = [];
+    let page = 1;
+    const limit = 100; // Default limit per page
+
+    while (true) {
+        const response = await fetch(
+            `https://api.openaq.org/v3/sensors/${sensorId}/measurements?page=${page}`,
+            // `https://api.openaq.org/v3/sensors/${sensorId}/measurements?page=${page}`,
+            { headers: { "Content-Type": "application/json", "X-API-Key": process.env.NEXT_PUBLIC_OPENAQ_API_KEY || "" } }
+        );
+
+        if (!response.ok) break;
+
+        const data = await response.json();
+        allMeasurements.push(...data.results);
+
+        // Check if there are more pages
+        if (data.results.length < limit) break;
+
+        page++;
+    }
+
+    const filePath = path.join(process.cwd(), 'apiDataFiles', `allMeasurements_${sensorId}.json`);
+    fs.writeFileSync(
+        filePath, // File path
+        JSON.stringify(allMeasurements, null, 2), // Data formatted as JSON
+        'utf-8' // Encoding
+    );
+
+    return allMeasurements;
 }
