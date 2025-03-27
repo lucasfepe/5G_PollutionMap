@@ -1,0 +1,470 @@
+[
+  {
+    "id": 571,
+    "name": "Calgary Northwest",
+    "lat": 51.0814,
+    "lon": -114.1403,
+    "pollutant": "CO",
+    "value": 0.2,
+    "unit": "ppm"
+  },
+  {
+    "id": 571,
+    "name": "Calgary Northwest",
+    "lat": 51.0814,
+    "lon": -114.1403,
+    "pollutant": "NO₂",
+    "value": 0.006,
+    "unit": "ppm"
+  },
+  {
+    "id": 571,
+    "name": "Calgary Northwest",
+    "lat": 51.0814,
+    "lon": -114.1403,
+    "pollutant": "PM2.5",
+    "value": 5.5,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 571,
+    "name": "Calgary Northwest",
+    "lat": 51.0814,
+    "lon": -114.1403,
+    "pollutant": "O₃",
+    "value": 0.027,
+    "unit": "ppm"
+  },
+  {
+    "id": 8809,
+    "name": "Calgary Central2",
+    "lat": 51.047611,
+    "lon": -114.075165,
+    "pollutant": "O₃",
+    "value": 0.024,
+    "unit": "ppm"
+  },
+  {
+    "id": 8809,
+    "name": "Calgary Central2",
+    "lat": 51.047611,
+    "lon": -114.075165,
+    "pollutant": "NO₂",
+    "value": 0.005,
+    "unit": "ppm"
+  },
+  {
+    "id": 8809,
+    "name": "Calgary Central2",
+    "lat": 51.047611,
+    "lon": -114.075165,
+    "pollutant": "CO",
+    "value": 0.2,
+    "unit": "ppm"
+  },
+  {
+    "id": 8809,
+    "name": "Calgary Central2",
+    "lat": 51.047611,
+    "lon": -114.075165,
+    "pollutant": "PM2.5",
+    "value": 8.2,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 277972,
+    "name": "Airdrie",
+    "lat": 51.268227,
+    "lon": -114.037677,
+    "pollutant": "CO",
+    "value": 0.3,
+    "unit": "ppm"
+  },
+  {
+    "id": 277972,
+    "name": "Airdrie",
+    "lat": 51.268227,
+    "lon": -114.037677,
+    "pollutant": "NO₂",
+    "value": 0.003,
+    "unit": "ppm"
+  },
+  {
+    "id": 277972,
+    "name": "Airdrie",
+    "lat": 51.268227,
+    "lon": -114.037677,
+    "pollutant": "PM2.5",
+    "value": 4.4,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 277972,
+    "name": "Airdrie",
+    "lat": 51.268227,
+    "lon": -114.037677,
+    "pollutant": "O₃",
+    "value": 0.026,
+    "unit": "ppm"
+  },
+  {
+    "id": 277972,
+    "name": "Airdrie",
+    "lat": 51.268227,
+    "lon": -114.037677,
+    "pollutant": "NO",
+    "value": 0.0,
+    "unit": "ppm"
+  },
+  {
+    "id": 277979,
+    "name": "CALGARY SOUTHEAST",
+    "lat": 50.955122,
+    "lon": -113.969742,
+    "pollutant": "PM2.5",
+    "value": 9.1,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 1534089,
+    "name": "Montgomery, Calgary",
+    "lat": 51.07583662516606,
+    "lon": -114.15994576851888,
+    "pollutant": "PM1",
+    "value": 0.6846726288398107,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 1534089,
+    "name": "Montgomery, Calgary",
+    "lat": 51.07583662516606,
+    "lon": -114.15994576851888,
+    "pollutant": "PM10",
+    "value": 0.2846726272255182,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 1534089,
+    "name": "Montgomery, Calgary",
+    "lat": 51.07583662516606,
+    "lon": -114.15994576851888,
+    "pollutant": "PM0.3 count",
+    "value": 295.4657745361328,
+    "unit": "particles/cm³"
+  },
+  {
+    "id": 1534089,
+    "name": "Montgomery, Calgary",
+    "lat": 51.07583662516606,
+    "lon": -114.15994576851888,
+    "pollutant": "RH",
+    "value": 14.509226083755493,
+    "unit": "%"
+  },
+  {
+    "id": 1534089,
+    "name": "Montgomery, Calgary",
+    "lat": 51.07583662516606,
+    "lon": -114.15994576851888,
+    "pollutant": "PM1",
+    "value": 1.744047611951828,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 1534089,
+    "name": "Montgomery, Calgary",
+    "lat": 51.07583662516606,
+    "lon": -114.15994576851888,
+    "pollutant": "PM10",
+    "value": 2.807142903407415,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 1534089,
+    "name": "Montgomery, Calgary",
+    "lat": 51.07583662516606,
+    "lon": -114.15994576851888,
+    "pollutant": "Temperature (C)",
+    "value": 20.542411009470623,
+    "unit": "c"
+  },
+  {
+    "id": 1534089,
+    "name": "Montgomery, Calgary",
+    "lat": 51.07583662516606,
+    "lon": -114.15994576851888,
+    "pollutant": "PM2.5",
+    "value": 1.1769345253705978,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 2863123,
+    "name": "Bankview",
+    "lat": 51.0332342792632,
+    "lon": -114.09890652848303,
+    "pollutant": "PM0.3 count",
+    "value": 61.37916692097982,
+    "unit": "particles/cm³"
+  },
+  {
+    "id": 2863123,
+    "name": "Bankview",
+    "lat": 51.0332342792632,
+    "lon": -114.09890652848303,
+    "pollutant": "RH",
+    "value": 40.30687459309896,
+    "unit": "%"
+  },
+  {
+    "id": 2863123,
+    "name": "Bankview",
+    "lat": 51.0332342792632,
+    "lon": -114.09890652848303,
+    "pollutant": "PM1",
+    "value": 0.002833333487311999,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 2863123,
+    "name": "Bankview",
+    "lat": 51.0332342792632,
+    "lon": -114.09890652848303,
+    "pollutant": "Temperature (C)",
+    "value": 9.577500025431315,
+    "unit": "c"
+  },
+  {
+    "id": 2863123,
+    "name": "Bankview",
+    "lat": 51.0332342792632,
+    "lon": -114.09890652848303,
+    "pollutant": "PM10",
+    "value": 0.04716666663686434,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 2863123,
+    "name": "Bankview",
+    "lat": 51.0332342792632,
+    "lon": -114.09890652848303,
+    "pollutant": "PM2.5",
+    "value": 0.024999999751647312,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 2957005,
+    "name": "Edgemont",
+    "lat": 51.136354,
+    "lon": -114.145923,
+    "pollutant": "PM0.3 count",
+    "value": 1.125,
+    "unit": "particles/cm³"
+  },
+  {
+    "id": 2957005,
+    "name": "Edgemont",
+    "lat": 51.136354,
+    "lon": -114.145923,
+    "pollutant": "Temperature (C)",
+    "value": 16.128703435262043,
+    "unit": "c"
+  },
+  {
+    "id": 2957005,
+    "name": "Edgemont",
+    "lat": 51.136354,
+    "lon": -114.145923,
+    "pollutant": "PM1",
+    "value": 0.0,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 2957005,
+    "name": "Edgemont",
+    "lat": 51.136354,
+    "lon": -114.145923,
+    "pollutant": "PM2.5",
+    "value": 0.0,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 2957005,
+    "name": "Edgemont",
+    "lat": 51.136354,
+    "lon": -114.145923,
+    "pollutant": "PM10",
+    "value": 0.0,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 2957005,
+    "name": "Edgemont",
+    "lat": 51.136354,
+    "lon": -114.145923,
+    "pollutant": "RH",
+    "value": 66.38888888888889,
+    "unit": "%"
+  },
+  {
+    "id": 2976549,
+    "name": "Everstone, Calgary",
+    "lat": 50.909637,
+    "lon": -114.102864,
+    "pollutant": "PM10",
+    "value": 0.5330000035464764,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 2976549,
+    "name": "Everstone, Calgary",
+    "lat": 50.909637,
+    "lon": -114.102864,
+    "pollutant": "PM1",
+    "value": 2.864875018596649,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 2976549,
+    "name": "Everstone, Calgary",
+    "lat": 50.909637,
+    "lon": -114.102864,
+    "pollutant": "PM0.3 count",
+    "value": 661.8270874023438,
+    "unit": "particles/cm³"
+  },
+  {
+    "id": 2976549,
+    "name": "Everstone, Calgary",
+    "lat": 50.909637,
+    "lon": -114.102864,
+    "pollutant": "PM2.5",
+    "value": 4.091333309809367,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 2976549,
+    "name": "Everstone, Calgary",
+    "lat": 50.909637,
+    "lon": -114.102864,
+    "pollutant": "RH",
+    "value": 56.12483278910319,
+    "unit": "%"
+  },
+  {
+    "id": 2976549,
+    "name": "Everstone, Calgary",
+    "lat": 50.909637,
+    "lon": -114.102864,
+    "pollutant": "Temperature (C)",
+    "value": 7.992375016212463,
+    "unit": "c"
+  },
+  {
+    "id": 3019166,
+    "name": "Citadel",
+    "lat": 51.1412128,
+    "lon": -114.1743663,
+    "pollutant": "PM1",
+    "value": 1.6692083378632863,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 3019166,
+    "name": "Citadel",
+    "lat": 51.1412128,
+    "lon": -114.1743663,
+    "pollutant": "PM2.5",
+    "value": 3.2997916539510093,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 3019166,
+    "name": "Citadel",
+    "lat": 51.1412128,
+    "lon": -114.1743663,
+    "pollutant": "Temperature (C)",
+    "value": 7.140499909718831,
+    "unit": "c"
+  },
+  {
+    "id": 3019166,
+    "name": "Citadel",
+    "lat": 51.1412128,
+    "lon": -114.1743663,
+    "pollutant": "RH",
+    "value": 55.4818754196167,
+    "unit": "%"
+  },
+  {
+    "id": 3019166,
+    "name": "Citadel",
+    "lat": 51.1412128,
+    "lon": -114.1743663,
+    "pollutant": "PM10",
+    "value": 0.09866666793823242,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 3019166,
+    "name": "Citadel",
+    "lat": 51.1412128,
+    "lon": -114.1743663,
+    "pollutant": "PM0.3 count",
+    "value": 418.37083435058594,
+    "unit": "particles/cm³"
+  },
+  {
+    "id": 3037949,
+    "name": "Riverbend",
+    "lat": 50.966232,
+    "lon": -114.007953,
+    "pollutant": "PM10",
+    "value": 0.6525972187519073,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 3037949,
+    "name": "Riverbend",
+    "lat": 50.966232,
+    "lon": -114.007953,
+    "pollutant": "RH",
+    "value": 58.842250188191734,
+    "unit": "%"
+  },
+  {
+    "id": 3037949,
+    "name": "Riverbend",
+    "lat": 50.966232,
+    "lon": -114.007953,
+    "pollutant": "Temperature (C)",
+    "value": 7.532583316167195,
+    "unit": "c"
+  },
+  {
+    "id": 3037949,
+    "name": "Riverbend",
+    "lat": 50.966232,
+    "lon": -114.007953,
+    "pollutant": "PM1",
+    "value": 3.057291646798452,
+    "unit": "µg/m³"
+  },
+  {
+    "id": 3037949,
+    "name": "Riverbend",
+    "lat": 50.966232,
+    "lon": -114.007953,
+    "pollutant": "PM0.3 count",
+    "value": 678.0520884195963,
+    "unit": "particles/cm³"
+  },
+  {
+    "id": 3037949,
+    "name": "Riverbend",
+    "lat": 50.966232,
+    "lon": -114.007953,
+    "pollutant": "PM2.5",
+    "value": 5.258083283901215,
+    "unit": "µg/m³"
+  }
+]
