@@ -1,0 +1,10 @@
+/* Map.module.css */
+
+.map-container {
+    position: relative;
+  }
+  
+  .map {
+    height: 500px;
+    width: 100%;
+  }

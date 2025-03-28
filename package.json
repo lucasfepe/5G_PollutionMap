@@ -12,6 +12,7 @@
     "@deck.gl/core": "^9.1.8",
     "@deck.gl/geo-layers": "^9.1.8",
     "@deck.gl/react": "^9.1.8",
+    "@turf/turf": "^7.2.0",
     "leaflet": "^1.9.4",
     "leaflet.heat": "^0.2.0",
     "mapbox-gl": "^3.10.0",
