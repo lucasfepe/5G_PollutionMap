@@ -1,14 +1,21 @@
 /* PollutantSelector.module.css */
 
 .selector-container {
-    margin-bottom: 10px;
-  }
-  
-  .selector-label {
-    margin-right: 5px;
-  }
-  
-  .selector-dropdown {
-    padding: 5px;
-    font-size: 14px;
-  }
+  margin-bottom: 10px;
+}
+
+.selector-label {
+  margin-right: 5px;
+}
+
+.selector-dropdown {
+  padding: 5px;
+  font-size: 14px;
+}
+
+
+
+.selector-dropdown option {
+  color: #333;
+  /* Set text color for the options */
+}

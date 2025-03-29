@@ -1,6 +1,2 @@
 py-openaq
-fastapi
-uvicorn
-numpy
-pandas
-scikit-learn
+requests

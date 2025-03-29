@@ -2,105 +2,108 @@
 
 /* Legend container */
 .legend {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    z-index: 1;
-  }
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  color: #333;
+}
 
-  .legendContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 1em;
-    margin-right: 1em
-  }
-  
-  /* Gradient bar */
-  .gradient-bar {
-    position: relative;
-    height: 20px;
-    width: 180px;
-    margin-bottom: 10px;
-    margin-top: 0.5em;
-    border-radius: 5px;
-  }
-  
-  /* Indicator labels */
-  .indicator {
-    position: absolute;
-    top: 100%;
-    font-size: 12px;
-  }
-  
-  .indicator-left {
-    left: 0%;
-    transform: translateX(-50%);
-  }
-  
-  .indicator-quarter {
-    left: 25%;
-    transform: translateX(-50%);
-  }
-  
-  .indicator-mid {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .indicator-three-quarters {
-    left: 75%;
-    transform: translateX(-50%);
-  }
-  
-  .indicator-right {
-    right: 0%;
-    transform: translateX(50%);
-  }
-  
-  /* Units text */
-  .units {
-    font-size: 12px;
-    color: gray;
-    margin-top: 0.5em;
-  }
+.legendContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em
+}
 
-  .legendExplanation {
-    display: flex;
-    flex-direction: row; /* Arrange items horizontally */
-    gap: 16px; /* Add spacing between items */
-    margin-top: 12px;
-  }
-  
-  .legendItem {
-    display: flex;
-    align-items: center;
-  }
-  
-  .circleIndicator {
-    background:  rgba(240, 59, 32, 0.6);
-    border: 2px solid black;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 6px;
-  }
-  
-  .polygonIndicator {
-    background-color: rgba(103, 169, 207, 0.6);
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    margin-right: 6px;
-  }
-  
-  .legendText {
-    font-size: 12px;
-    color: #333;
-  }
+/* Gradient bar */
+.gradient-bar {
+  position: relative;
+  height: 20px;
+  width: 180px;
+  margin-bottom: 10px;
+  margin-top: 0.5em;
+  border-radius: 5px;
+}
+
+/* Indicator labels */
+.indicator {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+
+.indicator-left {
+  left: 0%;
+  transform: translateX(-50%);
+}
+
+.indicator-quarter {
+  left: 25%;
+  transform: translateX(-50%);
+}
+
+.indicator-mid {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.indicator-three-quarters {
+  left: 75%;
+  transform: translateX(-50%);
+}
+
+.indicator-right {
+  right: 0%;
+  transform: translateX(50%);
+}
+
+/* Units text */
+.units {
+  font-size: 12px;
+  color: gray;
+  margin-top: 0.5em;
+}
+
+.legendExplanation {
+  display: flex;
+  flex-direction: row;
+  /* Arrange items horizontally */
+  gap: 16px;
+  /* Add spacing between items */
+  margin-top: 12px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+}
+
+.circleIndicator {
+  background: rgba(240, 59, 32, 0.6);
+  border: 2px solid black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.polygonIndicator {
+  background-color: rgba(103, 169, 207, 0.6);
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.legendText {
+  font-size: 12px;
+  color: #333;
+}
